@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         view.backgroundColor = .red
         
         let view = UIView()
-        view.backgroundColor = .green
+        view.backgroundColor = .yellow
         view.frame = CGRect(x: 100, y: 200, width: 200, height: 200)
         self.view.addSubview(view)
     }
