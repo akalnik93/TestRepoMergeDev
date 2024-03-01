@@ -71,6 +71,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEFC35382B9236A700F8B240 /* Build configuration list for PBXNativeTarget "TestMergeDev" */;
 			buildPhases = (
+				FEFC353B2B923E2C00F8B240 /* ShellScript */,
 				FEFC35202B9236A000F8B240 /* Sources */,
 				FEFC35212B9236A000F8B240 /* Frameworks */,
 				FEFC35222B9236A000F8B240 /* Resources */,
@@ -128,6 +129,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FEFC353B2B923E2C00F8B240 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh script.sh";
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FEFC35202B9236A000F8B240 /* Sources */ = {
